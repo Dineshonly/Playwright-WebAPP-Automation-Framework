@@ -1,6 +1,6 @@
 {
-  "baseUrl": "",
-  "username": "",
-  "password": "",
+  "baseUrl": "http://snedrive.dev.sne1.net/",
+  "username": "evoketeam",
+  "password": "welcome123",
   "AZURE_TOKEN": ""
 }
