@@ -22,6 +22,7 @@ module.exports = defineConfig({
         ['json', { outputFile: 'test-results/json/test-results.json' }],
         ['junit', { outputFile: 'test-results/xml/test-results.xml' }],
         ['html', { outputFolder: 'test-results/html/', outputFile: 'index.html', open: 'never' }],
+        ['allure-playwright', {outputFolder: 'allure-results'}],
         [
             '@alex_neo/playwright-azure-reporter',
             {
