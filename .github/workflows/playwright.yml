@@ -24,7 +24,7 @@ jobs:
 
       - name: Generate and upload Playwright report
         if: always()
-        run: npx playwright show-report test-results/html/
+        run: allure generate allure-results  -o allure-report --clean
         continue-on-error: true
 
       - name: Archive Playwright report
