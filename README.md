@@ -67,3 +67,10 @@ Create your Playwright test scripts for API automation in the /tests directory. 
 # 9. To see the execution reports:
    ```bash
    npx playwright show-report test-results\html
+
+# 10. To see execution report using third party tool allure.
+   ```bash
+   npm i -D allure-playwright
+   npm install -g allure-commandline --save-dev
+   allure generate allure-results  -o allure-report --clean
+   allure open allure-report
